@@ -60,12 +60,15 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "DemoWebAPI:build:production"
+              "browserTarget": "DemoWebAPI:build:production",
+              "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
-              "browserTarget": "DemoWebAPI:build:development"
+              "browserTarget": "DemoWebAPI:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
+          
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
