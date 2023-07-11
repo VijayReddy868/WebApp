@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 import { MyMonitoringService } from './log/logging.service';
 import { ErrorHandlerService } from './ErrorHandlerService';
 import { Exception, IExceptionTelemetry } from '@microsoft/applicationinsights-web';
-const API_ENDPOINT = "api/WeatherForecast";
+const API_ENDPOINT = "https://backend-service-test.azurewebsites.net/api/WeatherForecast";
 
 
 @Component({
