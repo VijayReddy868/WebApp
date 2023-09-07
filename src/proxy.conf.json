@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target":"https://mywebapi20230907110705.azurewebsites.net",
+         "secure" : false,
+         "logLevel": "debug"
+       }
+    
+}
