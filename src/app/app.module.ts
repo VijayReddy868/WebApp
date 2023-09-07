@@ -21,7 +21,7 @@ import { ErrorHandlerService } from './ErrorHandlerService';
       auth: {
           clientId: "c389a1b4-e001-457e-b823-4ebf0a123f27",
           authority: "https://login.microsoftonline.com/51f434bc-1d65-40a6-b6e7-cda61d8f24b2/",
-           redirectUri: "http://localhost:4200/",
+           redirectUri: "https://jolly-coast-08121020f.3.azurestaticapps.net/",
       },
       cache: {
           cacheLocation : BrowserCacheLocation.LocalStorage,
@@ -42,7 +42,7 @@ import { ErrorHandlerService } from './ErrorHandlerService';
       protectedResourceMap: new Map([
           ['https://graph.microsoft.com/v1.0/me', ['user.read']],
           ['https://api.myapplication.com/users/*', ['customscope.read']],
-          ['http://localhost:4200/', ['user.read','profile','openid']] 
+          ['https://jolly-coast-08121020f.3.azurestaticapps.net', ['user.read','profile','openid']] 
       ])
   })
   ,
