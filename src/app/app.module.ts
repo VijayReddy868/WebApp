@@ -21,7 +21,7 @@ import { ErrorHandlerService } from './ErrorHandlerService';
       auth: {
           clientId: "c389a1b4-e001-457e-b823-4ebf0a123f27",
           authority: "https://login.microsoftonline.com/51f434bc-1d65-40a6-b6e7-cda61d8f24b2/",
-           redirectUri: "https://jolly-coast-08121020f.3.azurestaticapps.net/",
+           redirectUri: "/",
       },
       cache: {
           cacheLocation : BrowserCacheLocation.LocalStorage,
