@@ -26,7 +26,10 @@ export class AppComponent  {
     private authService: MsalService,
     private msalBroadcastService: MsalBroadcastService ,private _http: HttpClient,
     private myMonitoringService: MyMonitoringService
-  ) {}
+  ) {
+
+    console.log("MSAL_GUARD_CONFIG #############################");
+  }
 
   
   ngOnInit(): void {
