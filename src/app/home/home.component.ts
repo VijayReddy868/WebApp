@@ -11,6 +11,8 @@ import { filter } from 'rxjs/operators';
 export class HomeComponent implements OnInit {
   loginDisplay = false;
 
+  console.log("Home Component #############################");
+  
   constructor(private authService: MsalService, private msalBroadcastService: MsalBroadcastService) { }
 
   ngOnInit(): void {
@@ -23,8 +25,9 @@ export class HomeComponent implements OnInit {
         const payload = result.payload as AuthenticationResult;
         this.authService.instance.setActiveAccount(payload.account);
       });
-
-      this.setLoginDisplay();
+  
+   console.log("Home Component  END #############################");
+   this.setLoginDisplay();
   }
 
   setLoginDisplay() {
